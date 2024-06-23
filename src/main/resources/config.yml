@@ -1,0 +1,219 @@
+# 配置附魔的成功機率
+enchantments:
+  SHARPNESS: 0.7        # 鋒利
+  EFFICIENCY: 0.6       # 效率
+  UNBREAKING: 0.8       # 耐久
+  FIRE_ASPECT: 0.5      # 火焰附加
+  KNOCKBACK: 0.5        # 擊退
+  LOOTING: 0.5          # 搶奪
+  SILK_TOUCH: 0.3       # 精緻採集
+  FORTUNE: 0.5          # 幸運
+  POWER: 0.7            # 力量
+  PUNCH: 0.5            # 衝擊
+  FLAME: 0.5            # 火焰
+  INFINITY: 0.2         # 無限
+  PROTECTION: 0.7       # 保護
+  FIRE_PROTECTION: 0.6  # 火焰保護
+  FEATHER_FALLING: 0.7  # 輕如鴻毛
+  BLAST_PROTECTION: 0.6 # 爆炸保護
+  PROJECTILE_PROTECTION: 0.6 # 彈射物保護
+  RESPIRATION: 0.5      # 水下呼吸
+  AQUA_AFFINITY: 0.5    # 水下速掘
+  THORNS: 0.3           # 荊棘
+  DEPTH_STRIDER: 0.6    # 深海探索者
+  FROST_WALKER: 0.4     # 冰霜行者
+  BINDING_CURSE: 0.1    # 綁定詛咒
+  MENDING: 0.5          # 修補
+  VANISHING_CURSE: 0.1  # 消失詛咒
+  SWEEPING_EDGE: 0.5    # 橫掃之刃
+
+# 設定允許哪些物品可以附加哪些附魔
+# 允許附魔的物品列表
+allowed-items:
+  DIAMOND_SWORD:        # 鑽石劍
+    - SHARPNESS         # 鋒利
+    - UNBREAKING        # 耐久
+    - FIRE_ASPECT       # 火焰附加
+    - LOOTING           # 搶奪
+  IRON_SWORD:           # 鐵劍
+    - SHARPNESS         # 鋒利
+    - UNBREAKING        # 耐久
+    - FIRE_ASPECT       # 火焰附加
+    - LOOTING           # 搶奪
+  GOLDEN_SWORD:         # 金劍
+    - SHARPNESS         # 鋒利
+    - UNBREAKING        # 耐久
+    - FIRE_ASPECT       # 火焰附加
+    - LOOTING           # 搶奪
+  STONE_SWORD:          # 石劍
+    - SHARPNESS         # 鋒利
+    - UNBREAKING        # 耐久
+    - FIRE_ASPECT       # 火焰附加
+    - LOOTING           # 搶奪
+  WOODEN_SWORD:         # 木劍
+    - SHARPNESS         # 鋒利
+    - UNBREAKING        # 耐久
+    - FIRE_ASPECT       # 火焰附加
+    - LOOTING           # 搶奪
+  DIAMOND_AXE:          # 鑽石斧
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  IRON_AXE:             # 鐵斧
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  GOLDEN_AXE:           # 金斧
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  STONE_AXE:            # 石斧
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  WOODEN_AXE:           # 木斧
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  DIAMOND_PICKAXE:      # 鑽石鎬
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  IRON_PICKAXE:         # 鐵鎬
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  GOLDEN_PICKAXE:       # 金鎬
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  STONE_PICKAXE:        # 石鎬
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  WOODEN_PICKAXE:       # 木鎬
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  DIAMOND_SHOVEL:       # 鑽石鏟
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  IRON_SHOVEL:          # 鐵鏟
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  GOLDEN_SHOVEL:        # 金鏟
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  STONE_SHOVEL:         # 石鏟
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  WOODEN_SHOVEL:        # 木鏟
+    - EFFICIENCY        # 效率
+    - UNBREAKING        # 耐久
+    - SILK_TOUCH        # 精緻採集
+    - FORTUNE           # 幸運
+  DIAMOND_HELMET:       # 鑽石頭盔
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - RESPIRATION       # 水下呼吸
+    - AQUA_AFFINITY     # 水下速掘
+  IRON_HELMET:          # 鐵頭盔
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - RESPIRATION       # 水下呼吸
+    - AQUA_AFFINITY     # 水下速掘
+  GOLDEN_HELMET:        # 金頭盔
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - RESPIRATION       # 水下呼吸
+    - AQUA_AFFINITY     # 水下速掘
+  CHAINMAIL_HELMET:     # 鎖鏈頭盔
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - RESPIRATION       # 水下呼吸
+    - AQUA_AFFINITY     # 水下速掘
+  LEATHER_HELMET:       # 皮革頭盔
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - RESPIRATION       # 水下呼吸
+    - AQUA_AFFINITY     # 水下速掘
+  DIAMOND_CHESTPLATE:   # 鑽石胸甲
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  IRON_CHESTPLATE:      # 鐵胸甲
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  GOLDEN_CHESTPLATE:    # 金胸甲
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  CHAINMAIL_CHESTPLATE: # 鎖鏈胸甲
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  LEATHER_CHESTPLATE:   # 皮革胸甲
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  DIAMOND_LEGGINGS:     # 鑽石護腿
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  IRON_LEGGINGS:        # 鐵護腿
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  GOLDEN_LEGGINGS:      # 金護腿
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  CHAINMAIL_LEGGINGS:   # 鎖鏈護腿
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  LEATHER_LEGGINGS:     # 皮革護腿
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - THORNS            # 荊棘
+  DIAMOND_BOOTS:        # 鑽石靴
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - FEATHER_FALLING   # 輕如鴻毛
+  IRON_BOOTS:           # 鐵靴
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - FEATHER_FALLING   # 輕如鴻毛
+  GOLDEN_BOOTS:         # 金靴
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - FEATHER_FALLING   # 輕如鴻毛
+  CHAINMAIL_BOOTS:      # 鎖鏈靴
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - FEATHER_FALLING   # 輕如鴻毛
+  LEATHER_BOOTS:        # 皮革靴
+    - PROTECTION        # 保護
+    - UNBREAKING        # 耐久
+    - FEATHER_FALLING   # 輕如鴻毛
+  # 可以根據需要添加更多物品和附魔
+

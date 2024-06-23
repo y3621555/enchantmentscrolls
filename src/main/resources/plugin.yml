@@ -1,0 +1,4 @@
+name: Enchantmentscrolls
+version: ${project.version}
+main: com.johnson.enchantmentscrolls.EnchantmentScrollsPlugin
+api-version: 1.20

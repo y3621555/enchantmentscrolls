@@ -1,0 +1,7 @@
+prefix: "&7[&aEnchantment&7] "  # 訊息前綴
+
+messages:
+  success: "&a附魔成功！"
+  failure: "&c附魔失敗，物品變為灰燼！"
+  not_allowed_item: "&c這個物品不能被附魔！"
+  not_allowed_enchantment: "&c這個物品不能附加這種附魔！"
